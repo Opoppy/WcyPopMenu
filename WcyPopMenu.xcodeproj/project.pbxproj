@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010C3D151F9F2E0A002F94C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C3D141F9F2E0A002F94C4 /* AppDelegate.m */; };
+		010C3D181F9F2E0A002F94C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C3D171F9F2E0A002F94C4 /* ViewController.m */; };
+		010C3D1B1F9F2E0A002F94C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010C3D191F9F2E0A002F94C4 /* Main.storyboard */; };
+		010C3D1D1F9F2E0A002F94C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010C3D1C1F9F2E0A002F94C4 /* Assets.xcassets */; };
+		010C3D201F9F2E0A002F94C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010C3D1E1F9F2E0A002F94C4 /* LaunchScreen.storyboard */; };
+		010C3D231F9F2E0A002F94C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C3D221F9F2E0A002F94C4 /* main.m */; };
+		010C3D2D1F9F2E0A002F94C4 /* WcyPopMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C3D2C1F9F2E0A002F94C4 /* WcyPopMenuTests.m */; };
+		010C3D381F9F2E0A002F94C4 /* WcyPopMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C3D371F9F2E0A002F94C4 /* WcyPopMenuUITests.m */; };
+		010C3D4A1F9F2EA4002F94C4 /* WcyPopMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C3D471F9F2E7C002F94C4 /* WcyPopMenuItem.m */; };
+		010C3D4B1F9F2EA9002F94C4 /* WcyPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C3D491F9F2E7C002F94C4 /* WcyPopMenuView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		010C3D291F9F2E0A002F94C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 010C3D081F9F2E0A002F94C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 010C3D0F1F9F2E0A002F94C4;
+			remoteInfo = WcyPopMenu;
+		};
+		010C3D341F9F2E0A002F94C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 010C3D081F9F2E0A002F94C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 010C3D0F1F9F2E0A002F94C4;
+			remoteInfo = WcyPopMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010C3D101F9F2E0A002F94C4 /* WcyPopMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WcyPopMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		010C3D131F9F2E0A002F94C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		010C3D141F9F2E0A002F94C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		010C3D161F9F2E0A002F94C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		010C3D171F9F2E0A002F94C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		010C3D1A1F9F2E0A002F94C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		010C3D1C1F9F2E0A002F94C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		010C3D1F1F9F2E0A002F94C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		010C3D211F9F2E0A002F94C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		010C3D221F9F2E0A002F94C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		010C3D281F9F2E0A002F94C4 /* WcyPopMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WcyPopMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		010C3D2C1F9F2E0A002F94C4 /* WcyPopMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WcyPopMenuTests.m; sourceTree = "<group>"; };
+		010C3D2E1F9F2E0A002F94C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		010C3D331F9F2E0A002F94C4 /* WcyPopMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WcyPopMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		010C3D371F9F2E0A002F94C4 /* WcyPopMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WcyPopMenuUITests.m; sourceTree = "<group>"; };
+		010C3D391F9F2E0A002F94C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		010C3D461F9F2E7C002F94C4 /* WcyPopMenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WcyPopMenuItem.h; sourceTree = "<group>"; };
+		010C3D471F9F2E7C002F94C4 /* WcyPopMenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WcyPopMenuItem.m; sourceTree = "<group>"; };
+		010C3D481F9F2E7C002F94C4 /* WcyPopMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WcyPopMenuView.h; sourceTree = "<group>"; };
+		010C3D491F9F2E7C002F94C4 /* WcyPopMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WcyPopMenuView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		010C3D0D1F9F2E0A002F94C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010C3D251F9F2E0A002F94C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010C3D301F9F2E0A002F94C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010C3D071F9F2E0A002F94C4 = {
+			isa = PBXGroup;
+			children = (
+				010C3D121F9F2E0A002F94C4 /* WcyPopMenu */,
+				010C3D2B1F9F2E0A002F94C4 /* WcyPopMenuTests */,
+				010C3D361F9F2E0A002F94C4 /* WcyPopMenuUITests */,
+				010C3D111F9F2E0A002F94C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		010C3D111F9F2E0A002F94C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				010C3D101F9F2E0A002F94C4 /* WcyPopMenu.app */,
+				010C3D281F9F2E0A002F94C4 /* WcyPopMenuTests.xctest */,
+				010C3D331F9F2E0A002F94C4 /* WcyPopMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		010C3D121F9F2E0A002F94C4 /* WcyPopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				010C3D131F9F2E0A002F94C4 /* AppDelegate.h */,
+				010C3D141F9F2E0A002F94C4 /* AppDelegate.m */,
+				010C3D161F9F2E0A002F94C4 /* ViewController.h */,
+				010C3D171F9F2E0A002F94C4 /* ViewController.m */,
+				010C3D451F9F2E7C002F94C4 /* WcyPopMenu */,
+				010C3D191F9F2E0A002F94C4 /* Main.storyboard */,
+				010C3D1C1F9F2E0A002F94C4 /* Assets.xcassets */,
+				010C3D1E1F9F2E0A002F94C4 /* LaunchScreen.storyboard */,
+				010C3D211F9F2E0A002F94C4 /* Info.plist */,
+				010C3D221F9F2E0A002F94C4 /* main.m */,
+			);
+			path = WcyPopMenu;
+			sourceTree = "<group>";
+		};
+		010C3D2B1F9F2E0A002F94C4 /* WcyPopMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				010C3D2C1F9F2E0A002F94C4 /* WcyPopMenuTests.m */,
+				010C3D2E1F9F2E0A002F94C4 /* Info.plist */,
+			);
+			path = WcyPopMenuTests;
+			sourceTree = "<group>";
+		};
+		010C3D361F9F2E0A002F94C4 /* WcyPopMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				010C3D371F9F2E0A002F94C4 /* WcyPopMenuUITests.m */,
+				010C3D391F9F2E0A002F94C4 /* Info.plist */,
+			);
+			path = WcyPopMenuUITests;
+			sourceTree = "<group>";
+		};
+		010C3D451F9F2E7C002F94C4 /* WcyPopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				010C3D461F9F2E7C002F94C4 /* WcyPopMenuItem.h */,
+				010C3D471F9F2E7C002F94C4 /* WcyPopMenuItem.m */,
+				010C3D481F9F2E7C002F94C4 /* WcyPopMenuView.h */,
+				010C3D491F9F2E7C002F94C4 /* WcyPopMenuView.m */,
+			);
+			path = WcyPopMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		010C3D0F1F9F2E0A002F94C4 /* WcyPopMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010C3D3C1F9F2E0A002F94C4 /* Build configuration list for PBXNativeTarget "WcyPopMenu" */;
+			buildPhases = (
+				010C3D0C1F9F2E0A002F94C4 /* Sources */,
+				010C3D0D1F9F2E0A002F94C4 /* Frameworks */,
+				010C3D0E1F9F2E0A002F94C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WcyPopMenu;
+			productName = WcyPopMenu;
+			productReference = 010C3D101F9F2E0A002F94C4 /* WcyPopMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		010C3D271F9F2E0A002F94C4 /* WcyPopMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010C3D3F1F9F2E0A002F94C4 /* Build configuration list for PBXNativeTarget "WcyPopMenuTests" */;
+			buildPhases = (
+				010C3D241F9F2E0A002F94C4 /* Sources */,
+				010C3D251F9F2E0A002F94C4 /* Frameworks */,
+				010C3D261F9F2E0A002F94C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				010C3D2A1F9F2E0A002F94C4 /* PBXTargetDependency */,
+			);
+			name = WcyPopMenuTests;
+			productName = WcyPopMenuTests;
+			productReference = 010C3D281F9F2E0A002F94C4 /* WcyPopMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		010C3D321F9F2E0A002F94C4 /* WcyPopMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010C3D421F9F2E0A002F94C4 /* Build configuration list for PBXNativeTarget "WcyPopMenuUITests" */;
+			buildPhases = (
+				010C3D2F1F9F2E0A002F94C4 /* Sources */,
+				010C3D301F9F2E0A002F94C4 /* Frameworks */,
+				010C3D311F9F2E0A002F94C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				010C3D351F9F2E0A002F94C4 /* PBXTargetDependency */,
+			);
+			name = WcyPopMenuUITests;
+			productName = WcyPopMenuUITests;
+			productReference = 010C3D331F9F2E0A002F94C4 /* WcyPopMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		010C3D081F9F2E0A002F94C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = wangchengyu;
+				TargetAttributes = {
+					010C3D0F1F9F2E0A002F94C4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					010C3D271F9F2E0A002F94C4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 010C3D0F1F9F2E0A002F94C4;
+					};
+					010C3D321F9F2E0A002F94C4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 010C3D0F1F9F2E0A002F94C4;
+					};
+				};
+			};
+			buildConfigurationList = 010C3D0B1F9F2E0A002F94C4 /* Build configuration list for PBXProject "WcyPopMenu" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 010C3D071F9F2E0A002F94C4;
+			productRefGroup = 010C3D111F9F2E0A002F94C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				010C3D0F1F9F2E0A002F94C4 /* WcyPopMenu */,
+				010C3D271F9F2E0A002F94C4 /* WcyPopMenuTests */,
+				010C3D321F9F2E0A002F94C4 /* WcyPopMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		010C3D0E1F9F2E0A002F94C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010C3D201F9F2E0A002F94C4 /* LaunchScreen.storyboard in Resources */,
+				010C3D1D1F9F2E0A002F94C4 /* Assets.xcassets in Resources */,
+				010C3D1B1F9F2E0A002F94C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010C3D261F9F2E0A002F94C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010C3D311F9F2E0A002F94C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		010C3D0C1F9F2E0A002F94C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010C3D4B1F9F2EA9002F94C4 /* WcyPopMenuView.m in Sources */,
+				010C3D4A1F9F2EA4002F94C4 /* WcyPopMenuItem.m in Sources */,
+				010C3D181F9F2E0A002F94C4 /* ViewController.m in Sources */,
+				010C3D231F9F2E0A002F94C4 /* main.m in Sources */,
+				010C3D151F9F2E0A002F94C4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010C3D241F9F2E0A002F94C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010C3D2D1F9F2E0A002F94C4 /* WcyPopMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010C3D2F1F9F2E0A002F94C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010C3D381F9F2E0A002F94C4 /* WcyPopMenuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		010C3D2A1F9F2E0A002F94C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 010C3D0F1F9F2E0A002F94C4 /* WcyPopMenu */;
+			targetProxy = 010C3D291F9F2E0A002F94C4 /* PBXContainerItemProxy */;
+		};
+		010C3D351F9F2E0A002F94C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 010C3D0F1F9F2E0A002F94C4 /* WcyPopMenu */;
+			targetProxy = 010C3D341F9F2E0A002F94C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		010C3D191F9F2E0A002F94C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				010C3D1A1F9F2E0A002F94C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		010C3D1E1F9F2E0A002F94C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				010C3D1F1F9F2E0A002F94C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		010C3D3A1F9F2E0A002F94C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		010C3D3B1F9F2E0A002F94C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		010C3D3D1F9F2E0A002F94C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WcyPopMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenghyu.wang.WcyPopMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		010C3D3E1F9F2E0A002F94C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WcyPopMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenghyu.wang.WcyPopMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		010C3D401F9F2E0A002F94C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WcyPopMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenghyu.wang.WcyPopMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WcyPopMenu.app/WcyPopMenu";
+			};
+			name = Debug;
+		};
+		010C3D411F9F2E0A002F94C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WcyPopMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenghyu.wang.WcyPopMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WcyPopMenu.app/WcyPopMenu";
+			};
+			name = Release;
+		};
+		010C3D431F9F2E0A002F94C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WcyPopMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenghyu.wang.WcyPopMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WcyPopMenu;
+			};
+			name = Debug;
+		};
+		010C3D441F9F2E0A002F94C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WcyPopMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenghyu.wang.WcyPopMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WcyPopMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		010C3D0B1F9F2E0A002F94C4 /* Build configuration list for PBXProject "WcyPopMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010C3D3A1F9F2E0A002F94C4 /* Debug */,
+				010C3D3B1F9F2E0A002F94C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		010C3D3C1F9F2E0A002F94C4 /* Build configuration list for PBXNativeTarget "WcyPopMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010C3D3D1F9F2E0A002F94C4 /* Debug */,
+				010C3D3E1F9F2E0A002F94C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		010C3D3F1F9F2E0A002F94C4 /* Build configuration list for PBXNativeTarget "WcyPopMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010C3D401F9F2E0A002F94C4 /* Debug */,
+				010C3D411F9F2E0A002F94C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		010C3D421F9F2E0A002F94C4 /* Build configuration list for PBXNativeTarget "WcyPopMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010C3D431F9F2E0A002F94C4 /* Debug */,
+				010C3D441F9F2E0A002F94C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 010C3D081F9F2E0A002F94C4 /* Project object */;
+}
